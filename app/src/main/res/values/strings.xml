@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">문득</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- facebook login -->
+    <string name="facebook_app_id">220346305154697</string>
+    <string name="fb_login_protocol_scheme">fb220346305154697</string>
+
+</resources>

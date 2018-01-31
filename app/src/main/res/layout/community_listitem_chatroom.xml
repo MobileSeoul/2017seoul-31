@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/community_iv_chatroom"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1.5" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/community_tv_roomname"
+            android:background="#E5E5E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:maxLines="1"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/community_tv_performancename"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/community_tv_roomlocation"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:maxLines="1"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@color/chat_room"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1.5">
+        <TextView
+            android:id="@+id/community_tv_roomday"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/community_tv_roomday2"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/community_tv_roomday2"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/community_tv_roomtime"
+            android:textColor="@color/white"
+            android:layout_below="@+id/community_tv_roomday2"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/community_tv_roompeople"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fabPrimary">#45A1F5</color>
+    <color name="fabPressed">#6EB5F7</color>
+    <color name="fabRipple">#AED6FC</color>
+    <color name="titlebackground">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="performUnderBar">#3666A5</color>
+    <color name="performTab">#4A75AE</color>
+    <color name="community_bar">#4A75AE</color>
+    <color name="chat_room">#B4CCDD</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kimjaeseung.cultureseoul2">
+
+    <!-- facebook login -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Google Place -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name=".GlobalApp"
+        android:allowBackup="true"
+        android:icon="@drawable/moondeuk"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".load.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- facebook login -->
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDTkdR5cY0g6nsj2edo8jD98v0HOoyKigE"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"/>
+
+        <activity android:name="com.facebook.CustomTabActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".login.LoginActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".community.AddChatRoomActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".community.ChatActivity" android:theme="@style/ChatTheme" android:screenOrientation="portrait" />
+        <activity android:name=".performance.DetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".performance.ClickedDetailImageActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_genre">
+        <item>콘서트</item>
+        <item>클래식</item>
+        <item>뮤지컬/오페라</item>
+        <item>연극</item>
+        <item>무용</item>
+        <item>전시/미술</item>
+        <item>국악</item>
+        <item>축제</item>
+        <item>독주/독창회</item>
+        <item>영화</item>
+        <item>문화교양/강좌</item>
+
+    </string-array>
+</resources>

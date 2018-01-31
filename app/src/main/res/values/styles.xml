@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/titlebackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textCursorDrawable">@color/performTab</item>
+        <item name="android:textSelectHandle">@color/white</item>
+        <item name="android:textSelectHandleRight">@color/white</item>
+        <item name="android:textSelectHandleLeft">@color/white</item>
+        <item name="android:progress">@color/performTab</item>
+    </style>
+
+    <style name="PerformTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/performTab</item>
+    </style>
+
+    <style name = "SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name = "android:windowBackground">@drawable/bg_splash_img</item>
+    </style>
+    <style name="ChatTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/titlebackground</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <!-- GregorianCalendar style -->
+    <style name="DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/performTab</item>
+    </style>
+
+
+
+</resources>

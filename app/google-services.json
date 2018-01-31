@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "683241460182",
+    "firebase_url": "https://cultureseoul-9be24.firebaseio.com",
+    "project_id": "cultureseoul-9be24",
+    "storage_bucket": "cultureseoul-9be24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683241460182:android:56244280fe35cf24",
+        "android_client_info": {
+          "package_name": "com.example.kimjaeseung.cultureseoul2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683241460182-fbb4opshdqqrq45pmh3a3soq9erbjv00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kimjaeseung.cultureseoul2",
+            "certificate_hash": "2ee4f40726f119ee0ba880c0e7af9668b06fbd98"
+          }
+        },
+        {
+          "client_id": "683241460182-7qm3i079vavh5dhg42i6a1i5nqkdfo0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwAKwtWCgOCWqNf8GUL5G-3e1KZGDJoa0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683241460182-7qm3i079vavh5dhg42i6a1i5nqkdfo0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

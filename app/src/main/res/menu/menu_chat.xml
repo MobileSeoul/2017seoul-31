@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/community_chat__item_roominfo"
+        android:title="방정보"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/community_chat_item_location"
+        android:title="모임위치"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/community_chat_item_people"
+        android:title="대화상대"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/community_chat_item_exit"
+        android:title="채팅방 나가기"
+        app:showAsAction="never"/>
+
+</menu>
